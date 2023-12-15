@@ -334,6 +334,43 @@ border-radius: undefined !important;
 video.smartplayer-video {
 border-radius: 0px !important;
 }
+  </style>
+<div class="headline-vMeaio2507812-element headline">
+<h1>
+<head>
+    <title>Data de Hoje</title>
+    <style>
+        #data-hoje {
+            color: red;
+        }
+    </style>
+</head>
+<body data-rsssl=1>
+    <b>Atenção: esse vídeo está sendo perseguido&nbsp;<span style="color:#ff0000">injustamente</span>&nbsp;pela Indústria Farmacêutica e saíra do ar&nbsp;<span id="data-hoje"></span>.</b>
+
+    <script>
+        // Obtém a data de hoje
+        var hoje = new Date();
+
+        // Formata a data no formato desejado (exemplo: 20/06/2023)
+        var dia = hoje.getDate();
+        var mes = hoje.getMonth() + 1; // Os meses são indexados a partir de 0
+        var ano = hoje.getFullYear();
+
+        // Adiciona um zero à esquerda para dias e meses menores que 10
+        if (dia < 10) {
+            dia = '0' + dia;
+        }
+        if (mes < 10) {
+            mes = '0' + mes;
+        }
+
+        // Combina os valores formatados para criar a data no formato "dd/mm/yyyy"
+        var dataFormatada = dia + '/' + mes + '/' + ano;
+
+        // Atualiza o conteúdo do elemento com a data de hoje
+        document.getElementById('data-hoje').textContent = dataFormatada;
+    </script>
 </style>
 <div class="video-Lbqnjr2094477">
 <div id="vid_657c75c7483a64000a2cd2c4" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_657c75c7483a64000a2cd2c4" src="https://images.converteai.net/8e60568f-6c77-400e-95d3-e7102dd539d1/players/657c75c7483a64000a2cd2c4/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_657c75c7483a64000a2cd2c4" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_657c75c7483a64000a2cd2c4">var s=document.createElement("script");s.src="https://scripts.converteai.net/8e60568f-6c77-400e-95d3-e7102dd539d1/players/657c75c7483a64000a2cd2c4/player.js",s.async=!0,document.head.appendChild(s);</script>
